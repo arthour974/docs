@@ -14,7 +14,7 @@
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Bien commencer",
         "pages": [
           "index",
           "quickstart"
