@@ -16,8 +16,15 @@
       {
         "group": "Bien commencer",
         "pages": [
-          "index",
-          "quickstart"
+          "index"
+        ]
+      },
+      {
+        "group": "Pneumatique",
+        "pages": [
+          "introduction",
+          "comprendre-la-dimension",
+          "la-date"
         ]
       }
     ],
