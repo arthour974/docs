@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "maple",
+  "name": "Les Guides Zot Garages",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#059669",
+    "light": "#10B981",
+    "dark": "#047857"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://cdn.shopify.com/s/files/1/0904/1113/9443/files/zot-garage-head.png?v=1763878363",
   "navigation": {
     "pages": [
       {
@@ -34,39 +34,68 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://cdn.shopify.com/s/files/1/0904/1113/9443/files/Logo_-_Fond_Transp.svg?v=1768476934",
+    "dark": "https://cdn.shopify.com/s/files/1/0904/1113/9443/files/Logo_-_Fond_Transp.svg?v=1768476934",
+    "href": "https://www.zotgarages.re"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "href": "https://shop.zotgarages.re/collections/pneus",
+        "label": "Pneus"
+      },
+      {
+        "href": "https://shop.zotgarages.re/collections/batteries",
+        "label": "Batteries"
+      },
+      {
+        "href": "https://www.zotgarages.re/controle-technique",
+        "label": "Contrôle technique"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "0693 42 62 62",
+      "href": "tel:+262693426262"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://www.zotgarages.re"
+    },
+    "links": [
+      {
+        "header": "Zot Garages",
+        "items": [
+          {
+            "label": "Boutique pneus et batteries",
+            "href": "https://shop.zotgarages.re"
+          },
+          {
+            "label": "Contrôle technique",
+            "href": "https://www.zotgarages.re/controle-technique"
+          },
+          {
+            "label": "Contact",
+            "href": "https://shop.zotgarages.re/pages/contact"
+          },
+          {
+            "label": "Offres entreprises",
+            "href": "https://shop.zotgarages.re/pages/formulaire-b2b"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Guides auto pratiques à La Réunion : batterie, pneus, voyants du tableau de bord, entretien et contrôle technique, par Zot Garages.",
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#1B1B1B"
     }
+  },
+  "fonts": {
+    "family": "Inter",
+    "weight": 400
   }
 }
